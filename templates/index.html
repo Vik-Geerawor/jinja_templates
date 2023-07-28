@@ -1,0 +1,13 @@
+
+<!-- inherits everything from base.html -->
+{% extends "base.html" %}
+
+<!-- replacing the block in base.html with the block below -->
+{% block content %}
+        <h1>
+            {{ content.heading }}
+        </h1>
+        <p>
+            {{ content.body }}
+        </p>
+{% endblock %}

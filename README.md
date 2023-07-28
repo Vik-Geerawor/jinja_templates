@@ -1,0 +1,11 @@
+# Jinja Templating Tutorial
+
+This is a simple demonstration on how to use jinja templates which is extensively used in Django and Flask. Hope you enjoy it.
+
+## License 🔑
+
+`jinja_templates` was created by Vik Geerawor. It is licensed under the terms of the MIT license.
+
+## Credits 💲
+
+`jinja_templates` was created with following the [YouTube video by Mr Rigden](https://www.youtube.com/watch?v=bxhXQG1qJPM)
