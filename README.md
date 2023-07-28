@@ -8,4 +8,4 @@ This is a simple demonstration on how to use jinja templates which is extensivel
 
 ## Credits 💲
 
-`jinja_templates` was created with following the [YouTube video by Mr Rigden](https://www.youtube.com/watch?v=bxhXQG1qJPM)
+`jinja_templates` was inspired by the [YouTube video by Mr Rigden](https://www.youtube.com/watch?v=bxhXQG1qJPM)
