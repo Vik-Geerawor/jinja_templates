@@ -1,4 +1,5 @@
 from jinja2 import Environment, FileSystemLoader
+import json
 
 
 if __name__ == "__main__":
@@ -18,9 +19,11 @@ if __name__ == "__main__":
 
     # render template
     data = {}
-    data["title"] = "MyJinja"
-    data["heading"] = "*** My Jinja Moves ***"
-    data["body"] = "How d'you like that..!?"
+    # load data from json file
+    with open("data/inheritance_data.json", "r") as f:
+        data = json.load(f)
+        print(f"{type(data)=}: {data}")
+
     output = template.render(content=data)
 
     # write to a file
