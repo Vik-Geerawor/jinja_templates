@@ -2,8 +2,8 @@ from jinja2 import Environment, FileSystemLoader
 
 
 if __name__ == "__main__":
-    templates = "templates"
     # specify the templates directory
+    templates = "templates"
     file_loader = FileSystemLoader(templates)
 
     # load environment
