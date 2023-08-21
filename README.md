@@ -1,6 +1,6 @@
 # Jinja Templating Tutorial
 
-This is a simple demonstration on how to use jinja templates which is extensively used in Django and Flask. Hope you enjoy it.
+This is a simple demonstration on jinja templates which is extensively used in Django and Flask. Hope you enjoy it.
 
 ## License 🔑
 
